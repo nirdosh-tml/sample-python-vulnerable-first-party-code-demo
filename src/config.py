@@ -1,1 +1,3 @@
-API_KEY = "prod_live_39824abcd98xyz"
+import os
+
+api_key = os.environ.get('API_KEY', 'default_api_key')
